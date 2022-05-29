@@ -1,0 +1,16 @@
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\bin\Debug\GörselProgramlamaDonemOdev.exe.config
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\bin\Debug\GörselProgramlamaDonemOdev.exe
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\bin\Debug\GörselProgramlamaDonemOdev.pdb
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.Properties.Resources.resources
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.exe
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.pdb
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.HastaKayıtForm.resources
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.Anasayfa.resources
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.PersonelBilgi.resources
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.HastaBilgileri.resources
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.İlaçİşlemleri.resources
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.İlaclarıListele.resources
+C:\Users\Hp\Desktop\Murat YücedağC#\3-AraC_Kullanimlar\GörselProgramlamaDonemOdev\obj\Debug\GörselProgramlamaDonemOdev.İlacKaydet.resources

@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A818A529-D62C-4EF1-A666-83BCA14DA2FC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GörselProgramlamaDonemOdev</RootNamespace>
+    <AssemblyName>GörselProgramlamaDonemOdev</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDonemOdevDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDonemOdevDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaBilgileri.Designer.cs">
+      <DependentUpon>HastaBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaKayıtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaKayıtForm.Designer.cs">
+      <DependentUpon>HastaKayıtForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelBilgi.Designer.cs">
+      <DependentUpon>PersonelBilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="İlacKaydet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İlacKaydet.Designer.cs">
+      <DependentUpon>İlacKaydet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İlaclarıListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İlaclarıListele.Designer.cs">
+      <DependentUpon>İlaclarıListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İlaçİşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İlaçİşlemleri.Designer.cs">
+      <DependentUpon>İlaçİşlemleri.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaBilgileri.resx">
+      <DependentUpon>HastaBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaKayıtForm.resx">
+      <DependentUpon>HastaKayıtForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelBilgi.resx">
+      <DependentUpon>PersonelBilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="İlacKaydet.resx">
+      <DependentUpon>İlacKaydet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İlaclarıListele.resx">
+      <DependentUpon>İlaclarıListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İlaçİşlemleri.resx">
+      <DependentUpon>İlaçİşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GPDonemOdevDataSet.xsc">
+      <DependentUpon>GPDonemOdevDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet.xss">
+      <DependentUpon>GPDonemOdevDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet1.xsc">
+      <DependentUpon>GPDonemOdevDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet1.xss">
+      <DependentUpon>GPDonemOdevDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet10.xsc">
+      <DependentUpon>GPDonemOdevDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet10.xss">
+      <DependentUpon>GPDonemOdevDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet11.xsc">
+      <DependentUpon>GPDonemOdevDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet11.xss">
+      <DependentUpon>GPDonemOdevDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet12.xsc">
+      <DependentUpon>GPDonemOdevDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet12.xss">
+      <DependentUpon>GPDonemOdevDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet13.xsc">
+      <DependentUpon>GPDonemOdevDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet13.xss">
+      <DependentUpon>GPDonemOdevDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet14.xsc">
+      <DependentUpon>GPDonemOdevDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet14.xss">
+      <DependentUpon>GPDonemOdevDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet15.xsc">
+      <DependentUpon>GPDonemOdevDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet15.xss">
+      <DependentUpon>GPDonemOdevDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet16.xsc">
+      <DependentUpon>GPDonemOdevDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet16.xss">
+      <DependentUpon>GPDonemOdevDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet17.xsc">
+      <DependentUpon>GPDonemOdevDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet17.xss">
+      <DependentUpon>GPDonemOdevDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet2.xsc">
+      <DependentUpon>GPDonemOdevDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet2.xss">
+      <DependentUpon>GPDonemOdevDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet3.xsc">
+      <DependentUpon>GPDonemOdevDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet3.xss">
+      <DependentUpon>GPDonemOdevDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet4.xsc">
+      <DependentUpon>GPDonemOdevDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet4.xss">
+      <DependentUpon>GPDonemOdevDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet5.xsc">
+      <DependentUpon>GPDonemOdevDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet5.xss">
+      <DependentUpon>GPDonemOdevDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet6.xsc">
+      <DependentUpon>GPDonemOdevDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet6.xss">
+      <DependentUpon>GPDonemOdevDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet7.xsc">
+      <DependentUpon>GPDonemOdevDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet7.xss">
+      <DependentUpon>GPDonemOdevDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet8.xsc">
+      <DependentUpon>GPDonemOdevDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet8.xss">
+      <DependentUpon>GPDonemOdevDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet9.xsc">
+      <DependentUpon>GPDonemOdevDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="GPDonemOdevDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDonemOdevDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GPDonemOdevDataSet9.xss">
+      <DependentUpon>GPDonemOdevDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
